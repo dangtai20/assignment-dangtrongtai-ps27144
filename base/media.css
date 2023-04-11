@@ -1,0 +1,221 @@
+/* Start Media Query */
+
+@media (max-width: 799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: var(--grey-color);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    .nav-input:checked~#navbar {
+        right: 0px;
+    }
+
+    /* #navbar.active {
+        right: 0px;
+    } */
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #lg-bag {
+        display: none;
+    }
+
+    #content ul li {
+        flex-basis: calc(100%/2);
+    }
+
+    .products li {
+        flex-basis: calc(100%/2);
+    }
+
+    #newsletter .form {
+        width: 70%;
+    }
+
+    /* Contact Page */
+
+    #form-details {
+        padding: 40px;
+    }
+
+    #form-details form {
+        width: 100%;
+    }
+
+    /* Cart */
+
+    #subtotal {
+        width: 100%;
+
+    }
+}
+
+
+
+@media (max-width: 477px) {
+
+    #header {
+        padding: 10px 30px;
+    }
+
+    #hero .img1 {
+        display: none;
+    }
+
+    #hero .img2 {
+        display: block;
+    }
+
+    .section-p1 {
+        padding: 40px 30px;
+    }
+
+    #content h3 {
+        text-align: center;
+    }
+
+    #content ul li {
+        flex-basis: 100%;
+
+    }
+
+    #banner p {
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    #banner {
+        margin: 0;
+    }
+
+    .products li {
+        flex-basis: 100%;
+
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    footer {
+        padding: 40px;
+    }
+
+    .footer {
+        display: initial;
+    }
+
+    .footer-left>div {
+        width: 100%;
+        display: inline-block;
+        border-bottom: 1px solid var(--grey-color);
+    }
+
+    .getHelp,
+    .aboutNike {
+        margin-top: 20px;
+    }
+
+    .footer-right {
+        width: 100%;
+    }
+
+    .footer-right ul {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .footer-right li {
+        margin-left: 0px;
+        margin-right: 16px;
+    }
+
+    .sub-footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .sub-footer-left {
+        text-align: left;
+    }
+
+    .sub-footer-space {
+        margin: 5px;
+    }
+
+    .sub-footer-right {
+        margin-top: 15px;
+    }
+
+
+    /* Single Product */
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
+
+    /* Contact Page */
+
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details .map {
+        width: 100%;
+    }
+
+    .log-in-container{
+        width: 300px;
+    }
+}

@@ -1,0 +1,202 @@
+
+/* Home Page */
+
+
+/* Banner */
+#hero {
+    width: 100%;
+}
+
+#hero img {
+    width: 100%;
+
+}
+
+#hero .img2{
+    display: none;
+}
+
+
+/* Highlight */
+
+#content h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.head-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    justify-content: space-between;
+}
+
+#content ul li {
+    flex-basis: calc(100%/3);
+    list-style: none;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.head-content-item img {
+    width: 100%;
+}
+
+.head-content-item-top {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.head-content-item .thumb {
+    display: block;
+}
+
+.head-content .head-content-item-top:hover .thumb img {
+    filter: opacity(80%);
+}
+
+.head-content-item .buy-now {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: var(--black-color);
+    color: white;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -42px;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+}
+
+.head-content .head-content-item-top:hover .buy-now {
+    bottom: 0px;
+    display: block;
+}
+
+.head-content-item-infor {
+    color: var(--text-color);
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.head-content-item-infor .name {
+    color: #9e9e9e;
+    text-decoration: none;
+}
+
+
+/* Find Your Shoes */
+
+#banner {
+    text-align: center;
+    line-height: 60px;
+}
+
+#banner h1 {
+    font-size: 72px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#banner p {
+    font-size: 16px;
+    margin: 0;
+}
+
+#banner button:hover {
+    background: var(--hover-color);
+}
+
+
+
+/* Best seller */
+
+.list-headline {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.list-headline h3 {
+    font-size: 18px;
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid gray;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.products {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.products li {
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.products img {
+    width: 100%;
+}
+
+.products .product-top {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-top .product-thumb {
+    display: block;
+}
+
+
+.product-top .buynow {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: var(--black-color);
+    color: white;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -55px;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.products .product-top:hover a.buynow {
+    display: block;
+    bottom: 0px;
+}
+
+.product-infor {
+    margin-top: 10px;
+}
+
+.product-infor .product-name {
+    font-size: 20px;
+    color: #9e9e9e;
+    padding: 3px 0;
+    text-decoration: none;
+
+}
+
+.product-infor .product-price {
+    font-size: 20px;
+    color: var(--black-color);
+    padding: 2px 0px;
+    font-weight: 500;
+}
+

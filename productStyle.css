@@ -1,0 +1,134 @@
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details button {
+    border-radius: 0;
+    line-height: 31px;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
+/* Highlight */
+
+#content h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.head-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    justify-content: space-between;
+}
+
+#content ul li {
+    flex-basis: calc(100%/3);
+    list-style: none;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.head-content-item img {
+    width: 100%;
+}
+
+.head-content-item-top {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.head-content-item .thumb {
+    display: block;
+}
+
+.head-content .head-content-item-top:hover .thumb img {
+    filter: opacity(80%);
+}
+
+.head-content-item .buy-now {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: var(--black-color);
+    color: white;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -42px;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+}
+
+.head-content .head-content-item-top:hover .buy-now {
+    bottom: 0px;
+    display: block;
+}
+
+.head-content-item-infor {
+    color: var(--text-color);
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.head-content-item-infor .name {
+    color: #9e9e9e;
+    text-decoration: none;
+}

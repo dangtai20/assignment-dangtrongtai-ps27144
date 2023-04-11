@@ -1,0 +1,144 @@
+/* Newsletter */
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background: var(--grey-color)
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#newsletter p span {
+    color: #c1839f;
+    font-weight: 600;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input {
+    height: 3.123rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    border-radius: 4px;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#newsletter a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Footer */
+
+footer {
+    background: #111;
+    color: #7e7e7e;
+    padding: 40px 0px 20px 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+
+}
+
+.footer-left {
+    width: 75%;
+}
+
+.footer-left>div {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-left ul {
+    padding: 0;
+    line-height: 1.5;
+}
+
+.footer-left ul li {
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.footer .footer-white {
+    color: white;
+    font-size: 13px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+.footer-right {
+    width: 25%;
+    line-height: 1.714285714285714;
+    vertical-align: top;
+}
+
+.footer-right ul {
+    text-align: right;
+}
+
+
+.footer-right li {
+    display: inline-block;
+    margin-left: 16px;
+    cursor: pointer;
+
+}
+
+.footer-right li svg {
+    fill: #7e7e7e;
+    transition: 0.3s ease;
+}
+
+.footer-right li svg:hover {
+    fill: white;
+}
+
+.sub-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.sub-footer-left a {
+    color: white;
+    text-decoration: none;
+}
+
+.sub-footer-right li {
+    display: inline-block;
+}
+
+.sub-footer-space {
+    margin: 0 15px;
+}
